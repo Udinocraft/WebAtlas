@@ -2,103 +2,252 @@
 
 **Surface Web & Dark Web Research, Documentation and Mapping**
 
-WebAtlas is an educational cybersecurity research project focused on exploring, documenting, analysing and mapping services found on the Surface Web and Dark Web.
+[![Project](https://img.shields.io/badge/Project-WebAtlas-2563eb?style=for-the-badge)](https://github.com/Udinocraft/WebAtlas)
+[![Research](https://img.shields.io/badge/Focus-Cybersecurity-111827?style=for-the-badge)](https://github.com/Udinocraft)
+[![Languages](https://img.shields.io/badge/Languages-PT--BR%20%7C%20EN--UK-16a34a?style=for-the-badge)](#-languages)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-eab308?style=for-the-badge)](#-project-development)
 
-The project aims to provide an organised overview of different online services, their purposes, structures, categories and potential risks through research, technical documentation and visual mapping.
+**WebAtlas** is an independent cybersecurity research, documentation and mapping project focused on exploring and organising information about services found on the Surface Web and Dark Web.
 
-The project also documents the tools used during the research process and records the development journey behind WebAtlas.
+The project aims to document online services, their purposes, structures, categories, characteristics and potential risks through research, technical documentation, evidence collection and visual mapping.
+
+The objective is to build an organised reference of different digital environments while maintaining an ethical, responsible and security-conscious research process.
 
 ---
 
-## 🇧🇷 Português
+# 🇧🇷 Português
 
-### 1. O que é o WebAtlas?
+## 1. Sobre o projeto
 
-O WebAtlas é um projeto independente de pesquisa e documentação em cibersegurança que busca explorar e organizar informações sobre a Surface Web e a Dark Web.
+O WebAtlas é um projeto independente de pesquisa em cibersegurança que busca explorar, documentar, analisar e mapear serviços encontrados na Surface Web e na Dark Web.
 
-O projeto apresenta diferentes serviços encontrados nessas duas partes da internet, organizando-os por categorias e documentando suas características, finalidades e possíveis riscos.
+O projeto procura compreender:
 
-O objetivo não é facilitar o acesso a serviços perigosos ou ilegais, mas compreender melhor o funcionamento, a diversidade e os riscos presentes nesses ambientes digitais.
+- A finalidade dos serviços digitais.
+- Sua estrutura e características.
+- As categorias às quais pertencem.
+- Os possíveis riscos associados.
+- As relações identificáveis entre diferentes serviços.
+- As diferenças entre os ambientes da Surface Web e Dark Web.
 
-O WebAtlas também utiliza mapas visuais para representar os serviços documentados e suas relações identificadas.
+O WebAtlas combina pesquisa manual, documentação técnica, capturas de tela, relatórios e mapas visuais.
 
-### 2. Seleção e organização dos sites
+O projeto possui finalidade exclusivamente educacional e documental. Não busca facilitar o acesso a atividades ilegais ou serviços perigosos.
 
-Os serviços são selecionados durante o processo de pesquisa e organizados conforme suas finalidades.
+## 2. Organização da pesquisa
 
-#### Surface Web
+A pesquisa é dividida em dois grandes ambientes:
 
-A pesquisa da Surface Web contempla diferentes categorias de serviços, incluindo:
+- **Surface Web:** serviços acessíveis por meio da navegação convencional.
+- **Dark Web:** serviços e ambientes associados a redes de acesso especializado, como a rede Tor.
 
-- Redes sociais.
-- Notícias e jornalismo.
-- Comunidades.
-- Conhecimento e educação.
-- Tecnologia e desenvolvimento.
-- Outros serviços digitais.
+Cada serviço recebe um identificador próprio (`WEB-XXX` ou `DARK-XXX`) para facilitar sua organização e referência nos relatórios e mapas.
 
-Atualmente, os seguintes sites fazem parte da documentação:
+### 2.1 Surface Web
 
-| ID | Site |
+A pesquisa da Surface Web está organizada nas seguintes categorias:
+
+| Categoria | Descrição |
 |---|---|
-| WEB-001 | Facebook |
-| WEB-002 | Instagram |
-| WEB-003 | LinkedIn |
-| WEB-004 | X |
-| WEB-005 | BBC |
-| WEB-006 | Folha de S.Paulo |
-| WEB-007 | The New York Times |
-| WEB-008 | Yahoo |
-| WEB-009 | YouTube |
-| WEB-010 | Reddit |
-| WEB-011 | Wikipedia |
+| Social Networks | Redes sociais e plataformas de interação |
+| News | Notícias, jornalismo e informação |
+| Web Portals | Portais e mecanismos de acesso a serviços |
+| Sports | Organizações, competições e informações esportivas |
+| Betting | Plataformas de apostas |
+| Government | Portais e instituições governamentais |
+| Intelligence & Investigation | Instituições de inteligência, investigação e segurança |
+| Operating Systems | Sistemas operacionais e projetos relacionados |
+| Communities | Comunidades e fóruns |
+| Development & Technology | Desenvolvimento, tecnologia e segurança |
+| Knowledge | Conhecimento, educação e bibliotecas digitais |
+| Video Platforms | Plataformas de vídeo |
 
-#### Dark Web
+### 2.2 Catálogo completo da Surface Web
 
-A pesquisa da Dark Web utiliza categorias próprias, considerando a diversidade dos serviços encontrados.
+A tabela abaixo apresenta os registros identificados na estrutura atual do projeto, com seus respectivos identificadores e endereços.
 
-As categorias utilizadas são:
+#### Social Networks
 
-- Illegal Markets: mercados ilegais e serviços associados a atividades criminosas.
-- News & Journalism: notícias, jornalismo e serviços de informação.
-- Bitcoin & Cryptocurrency: serviços e conteúdos relacionados a criptomoedas.
-- Communities & Forums: fóruns, comunidades e plataformas de interação.
-- Other Services: serviços que não se encaixam nas categorias anteriores.
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-001 | Facebook | [facebook.com](https://www.facebook.com) |
+| WEB-002 | Instagram | [instagram.com](https://www.instagram.com) |
+| WEB-003 | X | [x.com](https://x.com) |
+| WEB-004 | LinkedIn | [linkedin.com](https://www.linkedin.com) |
+| WEB-005 | TikTok | [tiktok.com](https://www.tiktok.com) |
+| WEB-006 | Pinterest | [pinterest.com](https://www.pinterest.com) |
+| WEB-007 | Snapchat | [snapchat.com](https://www.snapchat.com) |
+| WEB-008 | Threads | [threads.net](https://www.threads.net) |
+| WEB-009 | Mastodon | [joinmastodon.org](https://joinmastodon.org) |
+| WEB-010 | Bluesky | [bsky.app](https://bsky.app) |
+| WEB-11 | Discord | [discord.com](https://discord.com) |
 
-Também existe uma classificação para serviços cuja finalidade não foi identificada ou que não puderam ser verificados.
+#### News
 
-### 3. Classificação de risco
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-012 | BBC News | [bbc.com](https://www.bbc.com) |
+| WEB-013 | Folha de S.Paulo | [folha.uol.com.br](https://www.folha.uol.com.br) |
+| WEB-014 | The New York Times | [nytimes.com](https://www.nytimes.com) |
+| WEB-015 | The Economist | [economist.com](https://www.economist.com) |
+| WEB-016 | G1 | [g1.globo.com](https://g1.globo.com) |
+| WEB-017 | UOL Notícias | [noticias.uol.com.br](https://noticias.uol.com.br) |
+| WEB-018 | CNN | [cnn.com](https://www.cnn.com) |
+| WEB-019 | Reuters | [reuters.com](https://www.reuters.com) |
+| WEB-020 | Associated Press | [apnews.com](https://apnews.com) |
+| WEB-021 | Deutsche Welle | [dw.com](https://www.dw.com) |
 
-O WebAtlas utiliza um sistema próprio de classificação visual para representar o risco geral associado aos serviços documentados.
+#### Web Portals
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-022 | Yahoo | [yahoo.com](https://www.yahoo.com) |
+
+#### Sports
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-023 | ESPN | [espn.com](https://www.espn.com) |
+| WEB-024 | Olympics | [olympics.com](https://olympics.com) |
+| WEB-025 | UFC | [ufc.com](https://www.ufc.com) |
+| WEB-026 | FIFA | [fifa.com](https://www.fifa.com) |
+| WEB-027 | Formula 1 | [formula1.com](https://www.formula1.com) |
+| WEB-028 | NBA | [nba.com](https://www.nba.com) |
+| WEB-029 | IBJJF | [ibjjf.com](https://ibjjf.com) |
+| WEB-030 | IJF | [ijf.org](https://www.ijf.org) |
+
+#### Betting
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-031 | Bet365 | [bet365.com](https://www.bet365.com) |
+| WEB-032 | Betano | [betano.com](https://www.betano.com) |
+| WEB-033 | Betfair | [betfair.com](https://www.betfair.com) |
+
+#### Government
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-034 | Governo Federal do Brasil | [gov.br](https://www.gov.br) |
+| WEB-035 | USA.gov | [usa.gov](https://www.usa.gov) |
+| WEB-036 | GOV.UK | [gov.uk](https://www.gov.uk) |
+| WEB-037 | Portal da Transparência | [portaldatransparencia.gov.br](https://portaldatransparencia.gov.br) |
+| WEB-038 | German Federal Government | [bundesregierung.de](https://www.bundesregierung.de) |
+| WEB-039 | Finland Government Services | [suomi.fi](https://www.suomi.fi) |
+
+#### Intelligence & Investigation
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-040 | FBI | [fbi.gov](https://www.fbi.gov) |
+| WEB-041 | CIA | [cia.gov](https://www.cia.gov) |
+| WEB-043 | INTERPOL | [interpol.int](https://www.interpol.int) |
+| WEB-044 | NSA | [nsa.gov](https://www.nsa.gov) |
+| WEB-045 | CISA | [cisa.gov](https://www.cisa.gov) |
+| WEB-046 | Polícia Federal | [gov.br/pf](https://www.gov.br/pf) |
+
+#### Operating Systems
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-047 | Arch Linux | [archlinux.org](https://archlinux.org) |
+| WEB-048 | Debian | [debian.org](https://www.debian.org) |
+| WEB-049 | Windows | [microsoft.com/windows](https://www.microsoft.com/windows) |
+| WEB-050 | FreeBSD | [freebsd.org](https://www.freebsd.org) |
+| WEB-051 | Kali Linux | [kali.org](https://www.kali.org) |
+| WEB-052 | Ubuntu | [ubuntu.com](https://ubuntu.com) |
+| WEB-053 | Fedora | [fedoraproject.org](https://fedoraproject.org) |
+| WEB-054 | Linux Mint | [linuxmint.com](https://linuxmint.com) |
+| WEB-055 | TempleOS | [templeos.org](https://templeos.org) |
+
+#### Communities
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-056 | Reddit | [reddit.com](https://www.reddit.com) |
+| WEB-057 | Stack Overflow | [stackoverflow.com](https://stackoverflow.com) |
+
+#### Development & Technology
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-058 | GitHub | [github.com](https://github.com) |
+| WEB-059 | Cloudflare | [cloudflare.com](https://www.cloudflare.com) |
+| WEB-060 | OWASP | [owasp.org](https://owasp.org) |
+| WEB-61 | Mozilla | [mozilla.org](https://www.mozilla.org) |
+| WEB-62 | GNU | [gnu.org](https://www.gnu.org) |
+
+#### Video Platforms
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-063 | YouTube | [youtube.com](https://www.youtube.com) |
+
+#### Knowledge
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-064 | Wikipedia | [wikipedia.org](https://www.wikipedia.org) |
+| WEB-065 | Internet Archive | [archive.org](https://archive.org) |
+| WEB-066 | NASA | [nasa.gov](https://www.nasa.gov) |
+
+**Nota:** os identificadores foram preservados conforme os nomes das pastas do repositório. Alguns não seguem exatamente o mesmo padrão de zeros à esquerda. A numeração também contém lacunas, pois os identificadores são utilizados como referências individuais do projeto.
+
+### 2.3 Dark Web
+
+A pesquisa da Dark Web utiliza categorias próprias para organizar os serviços identificados.
+
+| Categoria | Descrição |
+|---|---|
+| Illegal Markets | Mercados ilegais e serviços associados a atividades criminosas |
+| News & Journalism | Notícias, jornalismo e serviços de informação |
+| Bitcoin & Cryptocurrency | Serviços e conteúdos relacionados a criptomoedas |
+| Communities & Forums | Fóruns, comunidades e plataformas de interação |
+| Other Services | Serviços que não se encaixam nas categorias anteriores |
+| Unknown / Unverified | Serviços não identificados ou sem evidências suficientes para verificação |
+
+Os endereços `.onion` não são publicados neste repositório.
+
+## 3. Sistema de classificação de risco
+
+O WebAtlas utiliza um sistema visual de classificação para representar o risco geral identificado durante a pesquisa.
 
 | Cor | Classificação | Descrição |
 |---|---|---|
-| 🟢 Verde | Baixo risco | Serviços com finalidade legítima identificável e baixo risco aparente durante o uso normal. |
-| 🟡 Amarelo | Risco moderado | Serviços que exigem maior cautela devido à confiabilidade incerta, conteúdo externo ou possíveis ameaças. |
-| 🔴 Vermelho | Alto risco | Serviços associados a atividades criminosas, fraudes, malware ou outros riscos graves. |
-| ⚪ Cinza | Desconhecido | Serviços sem evidências suficientes para uma avaliação confiável. |
+| 🟢 Verde | Baixo risco | Finalidade legítima identificável e baixo risco aparente durante o uso normal |
+| 🟡 Amarelo | Risco moderado | Exige cautela devido à confiabilidade incerta, conteúdo externo ou possíveis ameaças |
+| 🔴 Vermelho | Alto risco | Associado a atividades criminosas, fraudes, malware ou outros riscos graves |
+| ⚪ Cinza | Desconhecido | Evidências insuficientes para uma avaliação confiável |
 
-A classificação considera a finalidade do serviço e os riscos gerais de exposição durante seu uso.
+A classificação considera a finalidade do serviço e os riscos gerais de exposição durante sua utilização.
 
-**Importante:** a classificação não representa uma garantia de segurança. Um serviço verde também pode apresentar vulnerabilidades, golpes ou conteúdo malicioso.
+**Importante:** a classificação não representa uma garantia de segurança. Mesmo serviços classificados como baixo risco podem apresentar vulnerabilidades, golpes, páginas falsas ou conteúdo malicioso.
 
-#### Unknown / Unverified
+### 3.1 Risco e confiança da avaliação
 
-Quando um serviço não está disponível, apresenta erros ou não pode ser identificado, ele recebe uma documentação específica.
+Risco e confiança são conceitos diferentes.
 
-Esses registros podem incluir:
+- **Risco:** representa o nível de exposição ou perigo identificado.
+- **Confiança:** representa a qualidade e a quantidade de evidências disponíveis para sustentar a avaliação.
 
-- Capturas de tela demonstrando a indisponibilidade.
-- Data e horário da tentativa de verificação.
-- Origem do endereço.
-- Mensagens de erro.
-- Justificativa para a classificação desconhecida.
+Uma avaliação pode apresentar risco elevado e confiança baixa, por exemplo, quando existem indícios preocupantes, mas poucas evidências verificáveis.
+
+### 3.2 Serviços desconhecidos ou indisponíveis
 
 Um serviço indisponível não é automaticamente considerado perigoso.
 
-### 4. Métodos de documentação
+Quando não é possível identificar ou verificar um serviço, a documentação pode incluir:
 
-O método de documentação depende da classificação de risco e das condições de segurança da pesquisa.
+- Capturas de tela de erros ou indisponibilidade.
+- Data e horário da tentativa de verificação.
+- Origem do endereço.
+- Mensagens apresentadas pelo navegador.
+- Limitações da pesquisa.
+- Justificativa para a classificação desconhecida.
+
+## 4. Métodos de documentação
+
+Os métodos utilizados dependem da classificação de risco e das condições de segurança da pesquisa.
 
 **Serviços verdes:**
 - Capturas de tela.
@@ -118,15 +267,16 @@ O método de documentação depende da classificação de risco e das condiçõe
 Serviços classificados como alto risco não são acessados diretamente para produzir documentação.
 
 **Serviços desconhecidos ou indisponíveis:**
-- Capturas de tela de erros ou indisponibilidade, quando disponíveis.
+- Capturas de tela de erros, quando disponíveis.
 - Informações sobre a origem do endereço.
-- Relatório de verificação e limitações da pesquisa.
+- Relatório de verificação.
+- Registro das limitações da pesquisa.
 
-### 5. Política de censura e proteção de informações
+## 5. Política de censura e proteção de informações
 
-Para evitar a divulgação desnecessária de informações sensíveis ou comerciais relacionadas a atividades ilegais, o WebAtlas utiliza uma política de censura.
+O WebAtlas utiliza uma política de censura para evitar a divulgação desnecessária de informações sensíveis ou detalhes que possam facilitar atividades ilegais.
 
-Entre os elementos censurados estão:
+Entre os elementos que podem ser censurados estão:
 
 - Fotografias explícitas de produtos ilegais.
 - Preços e informações de compra por unidade.
@@ -134,12 +284,13 @@ Entre os elementos censurados estão:
 - Rostos e dados pessoais presentes em documentos.
 - Identificadores de vendedores e indivíduos.
 - Informações que facilitem a contratação de atividades criminosas.
+- Dados de vítimas ou informações pessoais expostas.
 
-As informações necessárias para compreender a finalidade e a estrutura dos serviços podem ser preservadas, desde que não exponham vítimas ou facilitem atividades ilegais.
+As informações necessárias para compreender a finalidade e a estrutura dos serviços podem ser preservadas, desde que isso não exponha vítimas nem facilite atividades ilegais.
 
-### 6. Ferramentas utilizadas
+## 6. Ferramentas utilizadas
 
-Durante o desenvolvimento e a pesquisa do WebAtlas, são utilizadas ferramentas de navegação, privacidade, documentação e assistência.
+As ferramentas utilizadas durante o desenvolvimento do WebAtlas estão organizadas em três grupos principais.
 
 **Navegadores:**
 - Google Chrome.
@@ -148,110 +299,141 @@ Durante o desenvolvimento e a pesquisa do WebAtlas, são utilizadas ferramentas 
 **Privacidade e rede:**
 - Mullvad VPN.
 
-**Assistência e pesquisa:**
+**Pesquisa e assistência:**
 - ChatGPT.
 - Claude.
 - Google Gemini.
 
-As ferramentas são utilizadas para auxiliar na pesquisa, organização, documentação e análise das informações.
+Essas ferramentas auxiliam na pesquisa, organização, documentação e análise das informações.
 
-A utilização de VPN e Tor não representa anonimato absoluto nem garante segurança.
+A utilização de Tor ou VPN não representa anonimato absoluto nem garante segurança.
 
-### 7. Mapas e visualização
+## 7. Mapas e visualização
 
-O WebAtlas possui uma proposta de mapeamento visual dos serviços documentados.
+O mapeamento é uma das partes centrais do WebAtlas.
 
-O desenvolvimento dos mapas acontece em diferentes etapas:
+O projeto utiliza mapas físicos e digitais para representar os serviços identificados e as relações documentadas entre eles.
+
+O desenvolvimento acontece em diferentes etapas:
 
 1. Pesquisa e identificação dos serviços.
 2. Organização dos serviços em categorias.
-3. Criação de mapas físicos durante a pesquisa.
+3. Criação de mapas físicos.
 4. Digitalização e organização dos mapas.
-5. Desenvolvimento de um mapa da Surface Web.
-6. Desenvolvimento de um mapa da Dark Web.
-7. Integração dos dois mapas em uma representação geral.
+5. Desenvolvimento do mapa da Surface Web.
+6. Desenvolvimento do mapa da Dark Web.
+7. Integração dos mapas em uma representação geral.
 
 As relações entre serviços somente são representadas quando existem evidências que as sustentem. Uma simples menção ou referência não comprova propriedade ou conexão técnica.
 
-### 8. Links da Surface Web
+### 7.1 Mapas do projeto
 
-Os endereços oficiais dos sites da Surface Web documentados podem ser consultados abaixo:
+Os mapas serão apresentados nesta seção conforme forem adicionados ao repositório.
 
-| Site | Endereço |
-|---|---|
-| Facebook | https://www.facebook.com |
-| Instagram | https://www.instagram.com |
-| LinkedIn | https://www.linkedin.com |
-| X | https://x.com |
-| BBC | https://www.bbc.com |
-| Folha de S.Paulo | https://www.folha.uol.com.br |
-| The New York Times | https://www.nytimes.com |
-| Yahoo | https://www.yahoo.com |
-| YouTube | https://www.youtube.com |
-| Reddit | https://www.reddit.com |
-| Wikipedia | https://www.wikipedia.org |
+<!--
+Quando os arquivos de imagem forem adicionados, descomente e ajuste os caminhos:
 
-### 9. Aviso sobre os endereços Onion
+![Surface Web Map](Map/Digital-Map/surface-web-map.png)
 
-Os endereços `.onion` não são publicados neste repositório propositalmente.
+![Dark Web Map](Map/Digital-Map/dark-web-map.png)
 
-Essa decisão busca evitar a distribuição de endereços que possam levar a serviços fraudulentos, maliciosos, ilegais ou potencialmente perigosos.
+![Integrated Web Map](Map/Digital-Map/webatlas-integrated-map.png)
+-->
 
-O objetivo do WebAtlas é documentar, pesquisar e analisar esses serviços, e não facilitar o acesso a eles.
+## 8. Estrutura do repositório
 
-### 10. Desenvolvimento do projeto
+A organização dos arquivos busca facilitar a consulta, a manutenção e a expansão do projeto.
 
-O WebAtlas é desenvolvido de maneira independente, com pesquisa, organização manual, documentação e criação de mapas.
+```text
+WebAtlas/
+│
+├── Dark Web/
+│   ├── Communities & Forums/
+│   ├── Illegal Markets/
+│   ├── News & Journalism/
+│   ├── Bitcoin & Cryptocurrency/
+│   └── Other Services/
+│
+├── Surface Web/
+│   ├── Betting/
+│   ├── Communities/
+│   ├── Development-Technology/
+│   ├── Government/
+│   ├── Intelligence-Investigation/
+│   ├── Knowledge/
+│   ├── News/
+│   ├── Operating-Systems/
+│   ├── Social-Networks/
+│   ├── Sports/
+│   ├── Video-Plataforms/
+│   └── Web-Portals/
+│
+├── Map/
+│   ├── Digital-Map/
+│   └── Physical-Map/
+│
+├── Reports/
+│   ├── Dark Web Report/
+│   └── Surface Web Report/
+│
+├── Tools/
+│   ├── AI/
+│   ├── Browser/
+│   └── VPN/
+│
+└── README.md
+```
 
-O processo envolve diferentes etapas, desde a identificação dos serviços até a elaboração dos relatórios e a organização dos arquivos.
+A estrutura acima representa a organização geral das áreas do projeto. As pastas individuais de cada serviço contêm os materiais correspondentes à sua documentação.
 
-#### Estatísticas iniciais de desenvolvimento
+## 9. Desenvolvimento do projeto
+
+O WebAtlas é desenvolvido de maneira independente, envolvendo pesquisa, organização manual, documentação, análise e criação de mapas.
+
+O processo exige atenção à qualidade das evidências, à organização dos arquivos e à segurança durante a pesquisa.
+
+### Estatísticas iniciais
 
 | Informação | Registro |
 |---|---|
+| Tempo registrado até 02/11/2026 | 28h01min |
 | Dias registrados | 4 |
 | Sessões registradas | 6 |
-| Tempo total registrado | 28h01min |
-| Sites Surface Web documentados | 11 |
+| Registros Surface Web identificados na estrutura atual | 65 |
+| Idiomas | PT-BR e English UK |
 
-O tempo apresentado corresponde às sessões registradas até 2 de novembro de 2026 e poderá ser atualizado conforme o projeto avançar.
+As estatísticas de tempo correspondem aos registros de desenvolvimento realizados até 2 de novembro de 2026. O número de serviços corresponde às pastas identificadas na estrutura atual do repositório e poderá mudar conforme a pesquisa avançar.
 
-#### Idiomas
+## 10. Atualizações futuras
 
-A documentação do projeto é desenvolvida em:
+O WebAtlas é um projeto em desenvolvimento contínuo.
 
-- Português brasileiro (PT-BR).
-- Inglês britânico (English UK).
+Possíveis etapas futuras incluem:
 
-### 11. Atualizações do projeto
+- Expansão da documentação da Surface Web.
+- Expansão da documentação da Dark Web.
+- Atualização dos relatórios individuais.
+- Aperfeiçoamento do sistema de classificação.
+- Desenvolvimento do mapa digital integrado.
+- Melhoria da organização e visualização das evidências.
+- Criação de ferramentas auxiliares para automatizar tarefas documentais.
 
-O WebAtlas é um projeto em desenvolvimento. Novos serviços, relatórios, categorias e mapas poderão ser adicionados conforme a pesquisa avançar.
-
-As atualizações serão registradas nesta seção.
-
-**Initial development – November 2026**
-- Documentação da Surface Web.
-- Documentação das ferramentas utilizadas.
-- Início da pesquisa da Dark Web.
-- Criação das categorias de serviços.
-- Implementação do sistema de classificação de riscos.
-- Definição da política de censura.
-- Desenvolvimento dos primeiros mapas.
-
-### 12. Ética e responsabilidade
+## 11. Ética e responsabilidade
 
 O WebAtlas possui finalidade educacional e de pesquisa em cibersegurança.
 
 O projeto não incentiva:
+
 - A compra ou venda de produtos ilegais.
 - A contratação de atividades criminosas.
 - O roubo ou a divulgação de informações pessoais.
 - A exploração de vulnerabilidades sem autorização.
 - A distribuição de malware ou ferramentas maliciosas.
+- A exposição de vítimas ou dados sensíveis.
 
 A pesquisa prioriza a segurança, a privacidade, a responsabilidade e o respeito às leis aplicáveis.
 
-### 13. Aviso legal
+## 12. Aviso legal
 
 As informações documentadas são utilizadas para fins educacionais e de pesquisa.
 
@@ -259,79 +441,111 @@ A presença de um serviço no WebAtlas não representa aprovação, recomendaç�
 
 As classificações são avaliações documentais baseadas nas evidências disponíveis durante a pesquisa e podem mudar conforme novas informações forem encontradas.
 
+O autor não incentiva nem assume responsabilidade por usos ilegais ou inadequados das informações disponibilizadas.
+
 ---
 
-## 🇬🇧 English (UK)
+# 🇬🇧 English (UK)
 
-### 1. What is WebAtlas?
+## 1. About the Project
 
-WebAtlas is an independent cybersecurity research and documentation project focused on exploring and organising information about the Surface Web and Dark Web.
+WebAtlas is an independent cybersecurity research, documentation and mapping project focused on exploring, analysing and organising information about services found on the Surface Web and Dark Web.
 
-The project documents different online services, their purposes, structures, categories and potential risks.
+The project aims to document:
 
-Its purpose is not to facilitate access to dangerous or illegal services, but to provide a better understanding of these digital environments through research, technical documentation and visual mapping.
+- The purpose of digital services.
+- Their structures and characteristics.
+- Their respective categories.
+- Potential security and exposure risks.
+- Identifiable relationships between different services.
+- Differences between Surface Web and Dark Web environments.
 
-### 2. Website Selection and Organisation
+WebAtlas combines manual research, technical documentation, screenshots, reports and visual mapping.
 
-Services are selected during the research process and organised according to their primary purposes.
+Its purpose is educational and documentary. It does not aim to facilitate access to illegal activities or dangerous services.
 
-#### Surface Web
+## 2. Research Organisation
 
-The Surface Web research covers several categories, including:
+The research is divided into two main environments:
 
-- Social networks.
-- News and journalism.
-- Communities.
-- Knowledge and education.
-- Technology and development.
-- Other digital services.
+- **Surface Web:** services accessible through conventional web browsing.
+- **Dark Web:** services and environments associated with specialised access networks, such as Tor.
 
-The current documentation includes 11 websites, identified by their respective WEB IDs.
+Each documented service receives an individual identifier (`WEB-XXX` or `DARK-XXX`) to support organisation and cross-referencing.
 
-#### Dark Web
+### 2.1 Surface Web
 
-The Dark Web research uses the following categories:
+The Surface Web research is organised into the following categories:
 
-- Illegal Markets.
-- News & Journalism.
-- Bitcoin & Cryptocurrency.
-- Communities & Forums.
-- Other Services.
+| Category | Description |
+|---|---|
+| Social Networks | Social networks and interaction platforms |
+| News | News, journalism and information |
+| Web Portals | Portals and digital services |
+| Sports | Sports organisations, competitions and information |
+| Betting | Betting platforms |
+| Government | Government portals and institutions |
+| Intelligence & Investigation | Intelligence, investigation and security institutions |
+| Operating Systems | Operating systems and related projects |
+| Communities | Online communities and forums |
+| Development & Technology | Development, technology and security |
+| Knowledge | Knowledge, education and digital libraries |
+| Video Platforms | Video-sharing platforms |
 
-An additional classification is used for services whose purposes remain unidentified or which cannot be verified.
+### 2.2 Surface Web Catalogue
 
-### 3. Risk Classification
+The complete catalogue, including identifiers and website addresses, is provided in the Portuguese section above.
 
-WebAtlas uses a colour-based risk classification system.
+The identifiers are preserved according to the current repository folder names.
+
+### 2.3 Dark Web
+
+The Dark Web research uses dedicated categories to organise identified services.
+
+| Category | Description |
+|---|---|
+| Illegal Markets | Illegal marketplaces and services associated with criminal activity |
+| News & Journalism | News, journalism and information services |
+| Bitcoin & Cryptocurrency | Cryptocurrency-related services and content |
+| Communities & Forums | Forums, communities and interaction platforms |
+| Other Services | Services that do not fit into the previous categories |
+| Unknown / Unverified | Unidentified services or services without sufficient verification evidence |
+
+`.onion` addresses are intentionally omitted from this repository.
+
+## 3. Risk Classification System
+
+WebAtlas uses a colour-based classification system to represent the general risk identified during research.
 
 | Colour | Classification | Description |
 |---|---|---|
-| 🟢 Green | Low Risk | Services with an identifiable legitimate purpose and apparently low exposure risk during normal use. |
-| 🟡 Yellow | Moderate Risk | Services requiring additional caution due to uncertain reliability, external content or potential threats. |
-| 🔴 Red | High Risk | Services associated with criminal activities, fraud, malware or other serious risks. |
-| ⚪ Grey | Unknown | Services for which there is insufficient evidence to establish a reliable risk assessment. |
+| 🟢 Green | Low Risk | Identifiable legitimate purpose and apparently low exposure risk during normal use |
+| 🟡 Yellow | Moderate Risk | Requires caution due to uncertain reliability, external content or potential threats |
+| 🔴 Red | High Risk | Associated with criminal activity, fraud, malware or other serious risks |
+| ⚪ Grey | Unknown | Insufficient evidence for a reliable assessment |
 
-This classification considers the purpose of each service and the general risks associated with using it.
+The classification considers each service's purpose and the general risks associated with its use.
 
-**Important:** a classification does not guarantee that a service is safe.
+**Important:** this classification does not guarantee that a service is safe.
 
-#### Unknown / Unverified
+### 3.1 Risk and Assessment Confidence
 
-Services that are unavailable, inaccessible or unidentified receive dedicated documentation.
+Risk and confidence are separate concepts.
 
-Records may include:
+- **Risk:** represents the level of exposure or danger identified.
+- **Confidence:** represents the quality and quantity of evidence supporting the assessment.
 
-- Screenshots showing the service's unavailability.
-- Date and time of the verification attempt.
-- Address origin.
-- Error messages.
-- Reasons for the unknown classification.
+An assessment may indicate high risk with low confidence when concerning indicators exist but reliable evidence remains limited.
+
+### 3.2 Unknown or Unavailable Services
 
 An unavailable service is not automatically considered dangerous.
 
-### 4. Documentation Methods
+Documentation may include screenshots, verification timestamps, address origins, error messages and research limitations.
 
-Documentation methods depend on the service's risk classification and the safety of the research process.
+## 4. Documentation Methods
+
+Documentation methods depend on the service's risk classification and the safety conditions of the research process.
 
 **Green services:**
 - Screenshots.
@@ -339,7 +553,7 @@ Documentation methods depend on the service's risk classification and the safety
 - Individual reports.
 
 **Yellow services:**
-- Screenshots, when appropriate.
+- Screenshots, where appropriate.
 - Individual reports.
 - HTML files only when obtaining and analysing them is considered safe.
 
@@ -351,28 +565,30 @@ Documentation methods depend on the service's risk classification and the safety
 High-risk services are not directly accessed for documentation purposes.
 
 **Unknown or unavailable services:**
-- Screenshots of errors or unavailability, when available.
-- Information about the address source.
-- Verification reports and research limitations.
+- Screenshots of errors, when available.
+- Address-origin information.
+- Verification reports.
+- Research limitations.
 
-### 5. Redaction and Information Protection Policy
+## 5. Redaction and Information Protection Policy
 
-WebAtlas applies a redaction policy to avoid unnecessary disclosure of sensitive information and commercial details associated with illegal activities.
+WebAtlas applies a redaction policy to prevent unnecessary disclosure of sensitive information or details that could facilitate illegal activities.
 
-The following information may be redacted:
+Information that may be redacted includes:
 
 - Explicit imagery of illegal products.
 - Prices and per-unit purchasing information.
 - Negotiation and payment details.
-- Faces and personal information appearing on identity documents.
+- Faces and personal information appearing in identity documents.
 - Seller and individual identifiers.
-- Information that could facilitate the commission of criminal activities.
+- Information that could facilitate criminal activity.
+- Victim data and exposed personal information.
 
-Information necessary to understand a service's purpose and structure may be retained, provided it does not expose victims or facilitate illegal activities.
+Information required to understand a service's purpose and structure may be retained, provided it does not expose victims or facilitate illegal activities.
 
-### 6. Tools Used
+## 6. Tools Used
 
-The project uses browsing, privacy, documentation and research assistance tools.
+The project uses browsing, privacy, networking and research assistance tools.
 
 **Browsers:**
 - Google Chrome.
@@ -388,17 +604,19 @@ The project uses browsing, privacy, documentation and research assistance tools.
 
 These tools support research, organisation, documentation and information analysis.
 
-The use of Tor and VPN services does not guarantee complete anonymity or security.
+The use of Tor or VPN services does not guarantee complete anonymity or security.
 
-### 7. Mapping and Visualisation
+## 7. Mapping and Visualisation
 
-WebAtlas uses visual maps to represent documented services.
+Mapping is one of the central elements of WebAtlas.
+
+The project uses physical and digital maps to represent identified services and documented relationships.
 
 The mapping process includes:
 
 1. Researching and identifying services.
 2. Organising services into categories.
-3. Creating physical maps during research.
+3. Creating physical maps.
 4. Digitising and organising the maps.
 5. Developing a Surface Web map.
 6. Developing a Dark Web map.
@@ -406,83 +624,86 @@ The mapping process includes:
 
 Relationships between services are only represented when supported by evidence. A simple mention or reference does not prove ownership or a technical connection.
 
-### 8. Surface Web Links
+### 7.1 Project Maps
 
-Official addresses for the documented Surface Web websites are provided in the Portuguese section above.
+Maps will be displayed in this section as they are added to the repository.
 
-### 9. Onion Address Notice
+## 8. Repository Structure
 
-`.onion` addresses are intentionally omitted from this repository.
+The repository is organised to support navigation, maintenance and future expansion.
 
-This decision aims to prevent the distribution of addresses that may lead to fraudulent, malicious, illegal or potentially dangerous services.
+The main directories include:
 
-WebAtlas focuses on documenting, researching and analysing these services rather than facilitating access to them.
+- `Surface Web/`
+- `Dark Web/`
+- `Map/`
+- `Reports/`
+- `Tools/`
 
-### 10. Project Development
+Individual service folders contain their corresponding documentation materials.
 
-WebAtlas is independently developed through research, manual organisation, documentation and visual mapping.
+## 9. Project Development
 
-The process involves several stages, from identifying services to preparing reports and organising project files.
+WebAtlas is independently developed through research, manual organisation, documentation, analysis and visual mapping.
 
-#### Initial Development Statistics
+The process requires attention to evidence quality, file organisation and research safety.
+
+### Initial Development Statistics
 
 | Information | Record |
 |---|---|
+| Recorded time until 02/11/2026 | 28h 01min |
 | Recorded development days | 4 |
 | Recorded sessions | 6 |
-| Total recorded time | 28h 01min |
-| Documented Surface Web websites | 11 |
+| Surface Web records identified in the current repository structure | 65 |
+| Languages | PT-BR and English UK |
 
-These figures represent the recorded sessions up to 2 November 2026 and may be updated as the project progresses.
+The recorded development time refers to sessions logged up to 2 November 2026. The service count reflects the folders identified in the current repository structure and may change as the research progresses.
 
-#### Documentation Languages
+## 10. Future Updates
 
-Project documentation is written in:
+WebAtlas is an ongoing project.
 
-- Brazilian Portuguese (PT-BR).
-- British English (English UK).
+Potential future developments include:
 
-### 11. Project Updates
+- Expanding Surface Web documentation.
+- Expanding Dark Web documentation.
+- Updating individual reports.
+- Improving the risk classification system.
+- Developing an integrated digital map.
+- Improving evidence organisation and visualisation.
+- Creating supporting tools to automate documentation tasks.
 
-WebAtlas is an ongoing project. New services, reports, categories and maps may be added as research progresses.
+## 11. Ethics and Responsibility
 
-Updates will be recorded in this section.
-
-**Initial development – November 2026**
-- Surface Web documentation.
-- Documentation of research tools.
-- Beginning of Dark Web research.
-- Creation of service categories.
-- Implementation of the risk classification system.
-- Definition of the redaction policy.
-- Development of the initial maps.
-
-### 12. Ethics and Responsibility
-
-WebAtlas is intended exclusively for educational and cybersecurity research purposes.
+WebAtlas is intended for educational and cybersecurity research purposes.
 
 The project does not encourage:
 
-- Buying or selling illegal products.
-- Hiring criminal services.
-- Stealing or disclosing personal information.
-- Exploiting vulnerabilities without authorisation.
-- Distributing malware or malicious tools.
+- The purchase or sale of illegal products.
+- The hiring of criminal services.
+- The theft or disclosure of personal information.
+- Unauthorised vulnerability exploitation.
+- The distribution of malware or malicious tools.
+- The exposure of victims or sensitive data.
 
 Research prioritises safety, privacy, responsibility and compliance with applicable laws.
 
-### 13. Disclaimer
+## 12. Legal Disclaimer
 
-The documented information is provided for educational and research purposes.
+The information documented in WebAtlas is intended for educational and research purposes.
 
-The inclusion of a service in WebAtlas does not constitute an endorsement, recommendation or guarantee of legitimacy.
+The presence of a service in the project does not represent endorsement, recommendation or a guarantee of legitimacy.
 
-Risk classifications are documentary assessments based on the available evidence at the time of research and may change as new information becomes available.
+Classifications are documentary assessments based on the evidence available during research and may change as new information becomes available.
+
+The author does not encourage or assume responsibility for illegal or inappropriate uses of the information provided.
 
 ---
 
-**Project Status:** In Development
-
 **Project:** WebAtlas  
-**Focus:** Cybersecurity Research & Documentation  
-**Languages:** PT-BR / English (UK)
+**Repository:** [github.com/Udinocraft/WebAtlas](https://github.com/Udinocraft/WebAtlas)  
+**Author:** Udinocraft  
+**Languages:** Brazilian Portuguese and British English  
+**Purpose:** Cybersecurity Research, Documentation and Mapping
+
