@@ -7,11 +7,11 @@
 [![Languages](https://img.shields.io/badge/Languages-PT--BR%20%7C%20EN--UK-16a34a?style=for-the-badge)](#-languages)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-eab308?style=for-the-badge)](#-project-development)
 
-**WebAtlas** is an independent cybersecurity research, documentation and mapping project focused on exploring and organising information about services found on the Surface Web and Dark Web.
+**WebAtlas** is an independent cybersecurity research, documentation and mapping project focused on exploring, analysing and organising information about services found on the Surface Web and Dark Web.
 
-The project aims to document online services, their purposes, structures, categories, characteristics and potential risks through research, technical documentation, evidence collection and visual mapping.
+The project documents online services, their purposes, structures, categories, characteristics and potential risks through research, technical documentation, evidence collection, risk assessments and visual mapping.
 
-The objective is to build an organised reference of different digital environments while maintaining an ethical, responsible and security-conscious research process.
+WebAtlas also maintains a versioned update system to preserve previous research, publish revised documentation and track changes in the project's assessments.
 
 ---
 
@@ -29,10 +29,11 @@ O projeto procura compreender:
 - Os possíveis riscos associados.
 - As relações identificáveis entre diferentes serviços.
 - As diferenças entre os ambientes da Surface Web e Dark Web.
+- As mudanças identificadas durante revisões e atualizações.
 
-O WebAtlas combina pesquisa manual, documentação técnica, capturas de tela, relatórios e mapas visuais.
+O WebAtlas combina pesquisa manual, documentação técnica, capturas de tela, relatórios, avaliações de risco e mapas visuais.
 
-O projeto possui finalidade exclusivamente educacional e documental. Não busca facilitar o acesso a atividades ilegais ou serviços perigosos.
+O projeto possui finalidade educacional e documental. Não busca facilitar o acesso a atividades ilegais ou serviços perigosos.
 
 ## 2. Organização da pesquisa
 
@@ -61,10 +62,11 @@ A pesquisa da Surface Web está organizada nas seguintes categorias:
 | Development & Technology | Desenvolvimento, tecnologia e segurança |
 | Knowledge | Conhecimento, educação e bibliotecas digitais |
 | Video Platforms | Plataformas de vídeo |
+| Games | Plataformas e serviços de jogos online |
 
-### 2.2 Catálogo completo da Surface Web
+### 2.2 Catálogo da Surface Web
 
-A tabela abaixo apresenta os registros identificados na estrutura atual do projeto, com seus respectivos identificadores e endereços.
+A tabela apresenta os serviços identificados no repositório, seus identificadores e respectivos websites.
 
 #### Social Networks
 
@@ -191,6 +193,15 @@ A tabela abaixo apresenta os registros identificados na estrutura atual do proje
 | WEB-065 | Internet Archive | [archive.org](https://archive.org) |
 | WEB-066 | NASA | [nasa.gov](https://www.nasa.gov) |
 
+#### Games
+
+| ID | Serviço | Website |
+|---|---|---|
+| WEB-067 | Poki | [poki.com](https://poki.com) |
+| WEB-068 | 1001 Jogos | [1001jogos.com.br](https://www.1001jogos.com.br) |
+| WEB-069 | Click Jogos | [clickjogos.com.br](https://www.clickjogos.com.br) |
+| WEB-070 | Monou | [monou.gg](https://monou.gg) |
+
 **Nota:** os identificadores foram preservados conforme os nomes das pastas do repositório. Alguns não seguem exatamente o mesmo padrão de zeros à esquerda. A numeração também contém lacunas, pois os identificadores são utilizados como referências individuais do projeto.
 
 ### 2.3 Dark Web
@@ -232,7 +243,26 @@ Risco e confiança são conceitos diferentes.
 
 Uma avaliação pode apresentar risco elevado e confiança baixa, por exemplo, quando existem indícios preocupantes, mas poucas evidências verificáveis.
 
-### 3.2 Serviços desconhecidos ou indisponíveis
+### 3.2 Reavaliação dos níveis de risco
+
+As classificações dos serviços da Dark Web não são consideradas permanentes.
+
+Com o avanço da pesquisa, novas evidências podem justificar a revisão de uma avaliação anterior. Por isso, o WebAtlas possui um processo de reavaliação dos níveis de risco.
+
+As reavaliações podem considerar:
+
+- Mudanças identificadas na finalidade ou funcionamento de um serviço.
+- Novas evidências disponíveis.
+- Alterações na confiabilidade das informações.
+- Mudanças nas condições de acesso e exposição.
+- Informações adicionais encontradas durante a pesquisa.
+- Necessidade de corrigir ou atualizar uma classificação anterior.
+
+As reavaliações são documentadas em relatórios próprios, permitindo acompanhar as alterações entre diferentes versões do projeto.
+
+**Importante:** uma alteração de classificação não significa necessariamente que o serviço tenha mudado. Ela também pode representar uma mudança na quantidade ou qualidade das evidências disponíveis.
+
+### 3.3 Serviços desconhecidos ou indisponíveis
 
 Um serviço indisponível não é automaticamente considerado perigoso.
 
@@ -303,6 +333,7 @@ As ferramentas utilizadas durante o desenvolvimento do WebAtlas estão organizad
 - ChatGPT.
 - Claude.
 - Google Gemini.
+- Grok.
 
 Essas ferramentas auxiliam na pesquisa, organização, documentação e análise das informações.
 
@@ -323,24 +354,117 @@ O desenvolvimento acontece em diferentes etapas:
 5. Desenvolvimento do mapa da Surface Web.
 6. Desenvolvimento do mapa da Dark Web.
 7. Integração dos mapas em uma representação geral.
+8. Revisão e atualização dos mapas conforme novas informações são documentadas.
 
 As relações entre serviços somente são representadas quando existem evidências que as sustentem. Uma simples menção ou referência não comprova propriedade ou conexão técnica.
 
 ### 7.1 Mapas do projeto
 
-Os mapas serão apresentados nesta seção conforme forem adicionados ao repositório.
+Os mapas e suas versões podem ser consultados diretamente no repositório:
 
-<!--
-Quando os arquivos de imagem forem adicionados, descomente e ajuste os caminhos:
+- [Mapas digitais](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Digital-Map)
+- [Mapas físicos](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Physical-Map)
 
-![Surface Web Map](Map/Digital-Map/surface-web-map.png)
+## 8. Sistema de atualizações
 
-![Dark Web Map](Map/Digital-Map/dark-web-map.png)
+O WebAtlas possui uma pasta `Updates/`, criada para organizar o histórico de desenvolvimento e preservar as versões anteriores dos materiais.
 
-![Integrated Web Map](Map/Digital-Map/webatlas-integrated-map.png)
--->
+Cada atualização possui sua própria pasta numerada. Dentro dela, os documentos são separados por tipo de conteúdo.
 
-## 8. Estrutura do repositório
+### 8.1 Organização das versões
+
+| Versão | Conteúdo |
+|---|---|
+| [1.0](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0) | Primeira versão arquivada dos mapas e relatórios do projeto |
+| [1.1](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1) | Atualização dos mapas e relatórios, incluindo reavaliações da Dark Web |
+
+### 8.2 Estrutura da pasta Updates
+
+```text
+Updates/
+│
+├── 1.0/
+│   ├── Maps/
+│   │   ├── Complete Map/
+│   │   ├── Dark Web Map/
+│   │   └── Surface Web Map/
+│   │
+│   └── Reports/
+│       ├── Dark Web Report/
+│       └── Surface Web Report/
+│
+└── 1.1/
+    ├── Dark Web Reviews/
+    │
+    ├── Maps/
+    │   ├── Complete Map/
+    │   └── Surface Web Map/
+    │
+    └── Reports/
+        ├── Dark Web Report/
+        └── Surface Web Report/
+```
+
+### 8.3 Conteúdo das atualizações
+
+Cada versão pode conter diferentes materiais, de acordo com as mudanças realizadas no projeto:
+
+- Relatórios atualizados da Surface Web.
+- Relatórios atualizados da Dark Web.
+- Mapas atualizados.
+- Revisões e reavaliações dos níveis de risco.
+- Registros de novos serviços documentados.
+- Correções e complementações da pesquisa.
+
+Os documentos podem ser disponibilizados em português e inglês britânico.
+
+### 8.4 Atualização 1.0
+
+A versão 1.0 reúne a primeira organização dos materiais arquivados na pasta de atualizações.
+
+**Mapas:**
+- [Complete Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Complete%20Map)
+- [Dark Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Dark%20Web%20Map)
+- [Surface Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Surface%20Web%20Map)
+
+**Relatórios:**
+- [Dark Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Reports/Dark%20Web%20Report)
+- [Surface Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Reports/Surface%20Web%20Report)
+
+### 8.5 Atualização 1.1
+
+A versão 1.1 reúne novos materiais de documentação e revisão.
+
+**Mapas:**
+- [Complete Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Maps/Complete%20Map)
+- [Surface Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Maps/Surface%20Web%20Map)
+
+**Relatórios:**
+- [Dark Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Reports/Dark%20Web%20Report)
+- [Surface Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Reports/Surface%20Web%20Report)
+
+**Reavaliações:**
+- [Dark Web Reviews](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Dark%20Web%20Reviews)
+
+A pasta `Dark Web Reviews` contém os relatórios de reavaliação em português e inglês:
+
+- [Reviews - Português](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-PT.pdf)
+- [Reviews - English](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-ENG.pdf)
+
+### 8.6 Objetivo do sistema de versões
+
+O sistema de atualizações permite:
+
+1. Preservar documentos de versões anteriores.
+2. Comparar mapas e relatórios de diferentes períodos.
+3. Registrar mudanças nas avaliações de risco.
+4. Documentar novos serviços e categorias.
+5. Manter um histórico organizado da evolução do WebAtlas.
+6. Facilitar a consulta de informações antigas sem substituir os materiais atuais.
+
+As versões futuras seguirão essa organização, permitindo que o projeto cresça sem perder seu histórico documental.
+
+## 9. Estrutura do repositório
 
 A organização dos arquivos busca facilitar a consulta, a manutenção e a expansão do projeto.
 
@@ -348,16 +472,12 @@ A organização dos arquivos busca facilitar a consulta, a manutenção e a expa
 WebAtlas/
 │
 ├── Dark Web/
-│   ├── Communities & Forums/
-│   ├── Illegal Markets/
-│   ├── News & Journalism/
-│   ├── Bitcoin & Cryptocurrency/
-│   └── Other Services/
 │
 ├── Surface Web/
 │   ├── Betting/
 │   ├── Communities/
 │   ├── Development-Technology/
+│   ├── Games/
 │   ├── Government/
 │   ├── Intelligence-Investigation/
 │   ├── Knowledge/
@@ -376,35 +496,34 @@ WebAtlas/
 │   ├── Dark Web Report/
 │   └── Surface Web Report/
 │
-├── Tools/
-│   ├── AI/
-│   ├── Browser/
-│   └── VPN/
+├── Updates/
+│   ├── 1.0/
+│   └── 1.1/
 │
 └── README.md
 ```
 
-A estrutura acima representa a organização geral das áreas do projeto. As pastas individuais de cada serviço contêm os materiais correspondentes à sua documentação.
+As pastas individuais de cada serviço contêm os materiais correspondentes à sua documentação. A pasta `Updates/` mantém os arquivos históricos de cada versão.
 
-## 9. Desenvolvimento do projeto
+## 10. Desenvolvimento do projeto
 
-O WebAtlas é desenvolvido de maneira independente, envolvendo pesquisa, organização manual, documentação, análise e criação de mapas.
+O WebAtlas é desenvolvido de maneira independente, envolvendo pesquisa, organização manual, documentação, análise, reavaliação e criação de mapas.
 
 O processo exige atenção à qualidade das evidências, à organização dos arquivos e à segurança durante a pesquisa.
 
-### Estatísticas iniciais
+### Estatísticas do projeto
 
 | Informação | Registro |
 |---|---|
-| Tempo registrado até 02/11/2026 | 28h01min |
-| Dias registrados | 4 |
-| Sessões registradas | 6 |
-| Registros Surface Web identificados na estrutura atual | 65 |
+| Registros da Surface Web | 69 |
+| Categorias da Surface Web | 13 |
+| Ambientes pesquisados | Surface Web e Dark Web |
+| Versões arquivadas | 1.0 e 1.1 |
 | Idiomas | PT-BR e English UK |
 
-As estatísticas de tempo correspondem aos registros de desenvolvimento realizados até 2 de novembro de 2026. O número de serviços corresponde às pastas identificadas na estrutura atual do repositório e poderá mudar conforme a pesquisa avançar.
+Os números representam a estrutura identificada no repositório nesta atualização e podem mudar conforme o projeto evoluir.
 
-## 10. Atualizações futuras
+## 11. Atualizações futuras
 
 O WebAtlas é um projeto em desenvolvimento contínuo.
 
@@ -412,13 +531,16 @@ Possíveis etapas futuras incluem:
 
 - Expansão da documentação da Surface Web.
 - Expansão da documentação da Dark Web.
+- Criação de novas categorias.
+- Inclusão de novos serviços.
 - Atualização dos relatórios individuais.
+- Novas reavaliações dos níveis de risco.
 - Aperfeiçoamento do sistema de classificação.
 - Desenvolvimento do mapa digital integrado.
 - Melhoria da organização e visualização das evidências.
 - Criação de ferramentas auxiliares para automatizar tarefas documentais.
 
-## 11. Ética e responsabilidade
+## 12. Ética e responsabilidade
 
 O WebAtlas possui finalidade educacional e de pesquisa em cibersegurança.
 
@@ -433,7 +555,7 @@ O projeto não incentiva:
 
 A pesquisa prioriza a segurança, a privacidade, a responsabilidade e o respeito às leis aplicáveis.
 
-## 12. Aviso legal
+## 13. Aviso legal
 
 As informações documentadas são utilizadas para fins educacionais e de pesquisa.
 
@@ -459,8 +581,9 @@ The project aims to document:
 - Potential security and exposure risks.
 - Identifiable relationships between different services.
 - Differences between Surface Web and Dark Web environments.
+- Changes identified during reviews and project updates.
 
-WebAtlas combines manual research, technical documentation, screenshots, reports and visual mapping.
+WebAtlas combines manual research, technical documentation, screenshots, reports, risk assessments and visual mapping.
 
 Its purpose is educational and documentary. It does not aim to facilitate access to illegal activities or dangerous services.
 
@@ -491,10 +614,20 @@ The Surface Web research is organised into the following categories:
 | Development & Technology | Development, technology and security |
 | Knowledge | Knowledge, education and digital libraries |
 | Video Platforms | Video-sharing platforms |
+| Games | Online gaming platforms and services |
 
 ### 2.2 Surface Web Catalogue
 
 The complete catalogue, including identifiers and website addresses, is provided in the Portuguese section above.
+
+The current Games category contains four entries:
+
+| ID | Service | Website |
+|---|---|---|
+| WEB-067 | Poki | [poki.com](https://poki.com) |
+| WEB-068 | 1001 Jogos | [1001jogos.com.br](https://www.1001jogos.com.br) |
+| WEB-069 | Click Jogos | [clickjogos.com.br](https://www.clickjogos.com.br) |
+| WEB-070 | Monou | [monou.gg](https://monou.gg) |
 
 The identifiers are preserved according to the current repository folder names.
 
@@ -537,7 +670,26 @@ Risk and confidence are separate concepts.
 
 An assessment may indicate high risk with low confidence when concerning indicators exist but reliable evidence remains limited.
 
-### 3.2 Unknown or Unavailable Services
+### 3.2 Risk-Level Reassessment
+
+Dark Web service classifications are not considered permanent.
+
+As research progresses, new evidence may justify reviewing a previous assessment. WebAtlas therefore includes a reassessment process for service risk levels.
+
+Reassessments may consider:
+
+- Changes in a service's purpose or operation.
+- Newly available evidence.
+- Changes in information reliability.
+- Changes in access and exposure conditions.
+- Additional information identified during research.
+- The need to correct or update a previous classification.
+
+Reassessments are documented in dedicated reports, allowing changes to be tracked across different project versions.
+
+A classification change does not necessarily mean that the service itself has changed. It may also reflect changes in the quantity or quality of available evidence.
+
+### 3.3 Unknown or Unavailable Services
 
 An unavailable service is not automatically considered dangerous.
 
@@ -601,6 +753,7 @@ The project uses browsing, privacy, networking and research assistance tools.
 - ChatGPT.
 - Claude.
 - Google Gemini.
+- Grok.
 
 These tools support research, organisation, documentation and information analysis.
 
@@ -621,46 +774,147 @@ The mapping process includes:
 5. Developing a Surface Web map.
 6. Developing a Dark Web map.
 7. Integrating both maps into a unified representation.
+8. Reviewing and updating maps as new information is documented.
 
 Relationships between services are only represented when supported by evidence. A simple mention or reference does not prove ownership or a technical connection.
 
-### 7.1 Project Maps
+Project maps are available in the repository:
 
-Maps will be displayed in this section as they are added to the repository.
+- [Digital Maps](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Digital-Map)
+- [Physical Maps](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Physical-Map)
 
-## 8. Repository Structure
+## 8. Versioned Update System
+
+WebAtlas includes an `Updates/` directory to organise the project's development history and preserve previous materials.
+
+Each update has its own numbered directory. Documents are organised by content type.
+
+### 8.1 Version Organisation
+
+| Version | Contents |
+|---|---|
+| [1.0](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0) | First archived version of the project's maps and reports |
+| [1.1](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1) | Updated maps and reports, including Dark Web reassessments |
+
+### 8.2 Update Contents
+
+Each version may include:
+
+- Updated Surface Web reports.
+- Updated Dark Web reports.
+- Revised maps.
+- Risk-level reviews and reassessments.
+- Records of newly documented services.
+- Research corrections and additional information.
+
+Documents may be available in Brazilian Portuguese and British English.
+
+### 8.3 Version 1.0
+
+Version 1.0 contains the first archived organisation of project materials.
+
+**Maps:**
+- [Complete Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Complete%20Map)
+- [Dark Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Dark%20Web%20Map)
+- [Surface Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Maps/Surface%20Web%20Map)
+
+**Reports:**
+- [Dark Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Reports/Dark%20Web%20Report)
+- [Surface Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0/Reports/Surface%20Web%20Report)
+
+### 8.4 Version 1.1
+
+Version 1.1 contains additional documentation and reassessment materials.
+
+**Maps:**
+- [Complete Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Maps/Complete%20Map)
+- [Surface Web Map](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Maps/Surface%20Web%20Map)
+
+**Reports:**
+- [Dark Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Reports/Dark%20Web%20Report)
+- [Surface Web Report](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Reports/Surface%20Web%20Report)
+
+**Reassessments:**
+- [Dark Web Reviews](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1/Dark%20Web%20Reviews)
+
+The `Dark Web Reviews` directory contains reassessment reports in Portuguese and English:
+
+- [Reviews - Portuguese](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-PT.pdf)
+- [Reviews - English](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-ENG.pdf)
+
+### 8.5 Purpose of Version Control
+
+The update system allows WebAtlas to:
+
+1. Preserve documents from previous versions.
+2. Compare maps and reports from different periods.
+3. Record changes in risk assessments.
+4. Document new services and categories.
+5. Maintain an organised development history.
+6. Consult previous research without replacing current materials.
+
+Future versions will follow this organisation, allowing the project to expand while preserving its documentary history.
+
+## 9. Repository Structure
 
 The repository is organised to support navigation, maintenance and future expansion.
 
-The main directories include:
+```text
+WebAtlas/
+│
+├── Dark Web/
+│
+├── Surface Web/
+│   ├── Betting/
+│   ├── Communities/
+│   ├── Development-Technology/
+│   ├── Games/
+│   ├── Government/
+│   ├── Intelligence-Investigation/
+│   ├── Knowledge/
+│   ├── News/
+│   ├── Operating-Systems/
+│   ├── Social-Networks/
+│   ├── Sports/
+│   ├── Video-Plataforms/
+│   └── Web-Portals/
+│
+├── Map/
+│   ├── Digital-Map/
+│   └── Physical-Map/
+│
+├── Reports/
+│   ├── Dark Web Report/
+│   └── Surface Web Report/
+│
+├── Updates/
+│   ├── 1.0/
+│   └── 1.1/
+│
+└── README.md
+```
 
-- `Surface Web/`
-- `Dark Web/`
-- `Map/`
-- `Reports/`
-- `Tools/`
+Individual service folders contain their corresponding documentation materials. The `Updates/` directory preserves the historical files for each version.
 
-Individual service folders contain their corresponding documentation materials.
+## 10. Project Development
 
-## 9. Project Development
-
-WebAtlas is independently developed through research, manual organisation, documentation, analysis and visual mapping.
+WebAtlas is independently developed through research, manual organisation, documentation, analysis, reassessment and visual mapping.
 
 The process requires attention to evidence quality, file organisation and research safety.
 
-### Initial Development Statistics
+### Project Statistics
 
 | Information | Record |
 |---|---|
-| Recorded time until 02/11/2026 | 28h 01min |
-| Recorded development days | 4 |
-| Recorded sessions | 6 |
-| Surface Web records identified in the current repository structure | 65 |
+| Surface Web records | 69 |
+| Surface Web categories | 13 |
+| Research environments | Surface Web and Dark Web |
+| Archived versions | 1.0 and 1.1 |
 | Languages | PT-BR and English UK |
 
-The recorded development time refers to sessions logged up to 2 November 2026. The service count reflects the folders identified in the current repository structure and may change as the research progresses.
+These figures reflect the repository structure at the time of this update and may change as the project develops.
 
-## 10. Future Updates
+## 11. Future Updates
 
 WebAtlas is an ongoing project.
 
@@ -668,13 +922,16 @@ Potential future developments include:
 
 - Expanding Surface Web documentation.
 - Expanding Dark Web documentation.
+- Creating additional categories.
+- Adding new services.
 - Updating individual reports.
-- Improving the risk classification system.
+- Conducting further risk-level reassessments.
+- Improving the classification system.
 - Developing an integrated digital map.
 - Improving evidence organisation and visualisation.
 - Creating supporting tools to automate documentation tasks.
 
-## 11. Ethics and Responsibility
+## 12. Ethics and Responsibility
 
 WebAtlas is intended for educational and cybersecurity research purposes.
 
@@ -689,7 +946,7 @@ The project does not encourage:
 
 Research prioritises safety, privacy, responsibility and compliance with applicable laws.
 
-## 12. Legal Disclaimer
+## 13. Legal Disclaimer
 
 The information documented in WebAtlas is intended for educational and research purposes.
 
@@ -706,4 +963,3 @@ The author does not encourage or assume responsibility for illegal or inappropri
 **Author:** Udinocraft  
 **Languages:** Brazilian Portuguese and British English  
 **Purpose:** Cybersecurity Research, Documentation and Mapping
-
