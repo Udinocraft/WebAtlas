@@ -515,7 +515,7 @@ O processo exige atenção à qualidade das evidências, à organização dos ar
 
 | Informação | Registro |
 |---|---|
-| Registros da Surface Web | 69 |
+| Registros da Surface Web | 70 |
 | Categorias da Surface Web | 13 |
 | Ambientes pesquisados | Surface Web e Dark Web |
 | Versões arquivadas | 1.0 e 1.1 |
@@ -906,7 +906,7 @@ The process requires attention to evidence quality, file organisation and resear
 
 | Information | Record |
 |---|---|
-| Surface Web records | 69 |
+| Surface Web records | 70 |
 | Surface Web categories | 13 |
 | Research environments | Surface Web and Dark Web |
 | Archived versions | 1.0 and 1.1 |
