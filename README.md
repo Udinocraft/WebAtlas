@@ -5,11 +5,12 @@
 [![Project](https://img.shields.io/badge/Project-WebAtlas-2563eb?style=for-the-badge)](https://github.com/Udinocraft/WebAtlas)
 [![Research](https://img.shields.io/badge/Focus-Cybersecurity-111827?style=for-the-badge)](https://github.com/Udinocraft)
 [![Languages](https://img.shields.io/badge/Languages-PT--BR%20%7C%20EN--UK-16a34a?style=for-the-badge)](#-languages)
+[![Version](https://img.shields.io/badge/Version-1.2-eab308?style=for-the-badge)](https://github.com/Udinocraft/WebAtlas/tree/main/Updates)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-eab308?style=for-the-badge)](#-project-development)
 
 **WebAtlas** is an independent cybersecurity research, documentation and mapping project focused on exploring, analysing and organising information about services found on the Surface Web and Dark Web.
 
-The project documents online services, their purposes, structures, categories, characteristics and potential risks through research, technical documentation, evidence collection, risk assessments and visual mapping.
+The project documents digital services, their purposes, structures, categories, characteristics, geographical origins and potential risks through research, technical documentation, evidence collection, risk assessments and visual mapping.
 
 WebAtlas also maintains a versioned update system to preserve previous research, publish revised documentation and track changes in the project's assessments.
 
@@ -27,11 +28,12 @@ O projeto procura compreender:
 - Sua estrutura e características.
 - As categorias às quais pertencem.
 - Os possíveis riscos associados.
+- Os países de origem das organizações e serviços.
 - As relações identificáveis entre diferentes serviços.
 - As diferenças entre os ambientes da Surface Web e Dark Web.
 - As mudanças identificadas durante revisões e atualizações.
 
-O WebAtlas combina pesquisa manual, documentação técnica, capturas de tela, relatórios, avaliações de risco e mapas visuais.
+O WebAtlas combina pesquisa manual, documentação técnica, capturas de tela, relatórios, avaliações de risco, classificação geográfica e mapas visuais.
 
 O projeto possui finalidade educacional e documental. Não busca facilitar o acesso a atividades ilegais ou serviços perigosos.
 
@@ -46,7 +48,7 @@ Cada serviço recebe um identificador próprio (`WEB-XXX` ou `DARK-XXX`) para fa
 
 ### 2.1 Surface Web
 
-A pesquisa da Surface Web está organizada nas seguintes categorias:
+A pesquisa da Surface Web está organizada em 14 categorias:
 
 | Categoria | Descrição |
 |---|---|
@@ -60,151 +62,185 @@ A pesquisa da Surface Web está organizada nas seguintes categorias:
 | Operating Systems | Sistemas operacionais e projetos relacionados |
 | Communities | Comunidades e fóruns |
 | Development & Technology | Desenvolvimento, tecnologia e segurança |
-| Knowledge | Conhecimento, educação e bibliotecas digitais |
 | Video Platforms | Plataformas de vídeo |
+| Knowledge | Conhecimento, educação e bibliotecas digitais |
 | Games | Plataformas e serviços de jogos online |
+| Banks | Instituições bancárias e serviços financeiros |
 
 ### 2.2 Catálogo da Surface Web
 
-A tabela apresenta os serviços identificados no repositório, seus identificadores e respectivos websites.
+O catálogo reúne 81 registros distribuídos entre as 14 categorias. Cada serviço possui um identificador, um website de referência e uma classificação geográfica.
 
 #### Social Networks
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-001 | Facebook | [facebook.com](https://www.facebook.com) |
-| WEB-002 | Instagram | [instagram.com](https://www.instagram.com) |
-| WEB-003 | X | [x.com](https://x.com) |
-| WEB-004 | LinkedIn | [linkedin.com](https://www.linkedin.com) |
-| WEB-005 | TikTok | [tiktok.com](https://www.tiktok.com) |
-| WEB-006 | Pinterest | [pinterest.com](https://www.pinterest.com) |
-| WEB-007 | Snapchat | [snapchat.com](https://www.snapchat.com) |
-| WEB-008 | Threads | [threads.net](https://www.threads.net) |
-| WEB-009 | Mastodon | [joinmastodon.org](https://joinmastodon.org) |
-| WEB-010 | Bluesky | [bsky.app](https://bsky.app) |
-| WEB-11 | Discord | [discord.com](https://discord.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-001 | Facebook | [facebook.com](https://www.facebook.com) | Estados Unidos |
+| WEB-002 | Instagram | [instagram.com](https://www.instagram.com) | Estados Unidos |
+| WEB-003 | X | [x.com](https://x.com) | Estados Unidos |
+| WEB-004 | LinkedIn | [linkedin.com](https://www.linkedin.com) | Estados Unidos |
+| WEB-005 | TikTok | [tiktok.com](https://www.tiktok.com) | China |
+| WEB-006 | Pinterest | [pinterest.com](https://www.pinterest.com) | Estados Unidos |
+| WEB-007 | Snapchat | [snapchat.com](https://www.snapchat.com) | Estados Unidos |
+| WEB-008 | Threads | [threads.net](https://www.threads.net) | Estados Unidos |
+| WEB-009 | Mastodon | [joinmastodon.org](https://joinmastodon.org) | Alemanha |
+| WEB-010 | Bluesky | [bsky.app](https://bsky.app) | Estados Unidos |
+| WEB-011 | Discord | [discord.com](https://discord.com) | Estados Unidos |
 
 #### News
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-012 | BBC News | [bbc.com](https://www.bbc.com) |
-| WEB-013 | Folha de S.Paulo | [folha.uol.com.br](https://www.folha.uol.com.br) |
-| WEB-014 | The New York Times | [nytimes.com](https://www.nytimes.com) |
-| WEB-015 | The Economist | [economist.com](https://www.economist.com) |
-| WEB-016 | G1 | [g1.globo.com](https://g1.globo.com) |
-| WEB-017 | UOL Notícias | [noticias.uol.com.br](https://noticias.uol.com.br) |
-| WEB-018 | CNN | [cnn.com](https://www.cnn.com) |
-| WEB-019 | Reuters | [reuters.com](https://www.reuters.com) |
-| WEB-020 | Associated Press | [apnews.com](https://apnews.com) |
-| WEB-021 | Deutsche Welle | [dw.com](https://www.dw.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-012 | BBC News | [bbc.com](https://www.bbc.com) | Reino Unido |
+| WEB-013 | Folha de S.Paulo | [folha.uol.com.br](https://www.folha.uol.com.br) | Brasil |
+| WEB-014 | The New York Times | [nytimes.com](https://www.nytimes.com) | Estados Unidos |
+| WEB-015 | The Economist | [economist.com](https://www.economist.com) | Reino Unido |
+| WEB-016 | G1 | [g1.globo.com](https://g1.globo.com) | Brasil |
+| WEB-017 | UOL Notícias | [noticias.uol.com.br](https://noticias.uol.com.br) | Brasil |
+| WEB-018 | CNN | [cnn.com](https://www.cnn.com) | Estados Unidos |
+| WEB-019 | Reuters | [reuters.com](https://www.reuters.com) | Reino Unido |
+| WEB-020 | Associated Press | [apnews.com](https://apnews.com) | Estados Unidos |
+| WEB-021 | Deutsche Welle | [dw.com](https://www.dw.com) | Alemanha |
 
 #### Web Portals
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-022 | Yahoo | [yahoo.com](https://www.yahoo.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-022 | Yahoo | [yahoo.com](https://www.yahoo.com) | Estados Unidos |
 
 #### Sports
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-023 | ESPN | [espn.com](https://www.espn.com) |
-| WEB-024 | Olympics | [olympics.com](https://olympics.com) |
-| WEB-025 | UFC | [ufc.com](https://www.ufc.com) |
-| WEB-026 | FIFA | [fifa.com](https://www.fifa.com) |
-| WEB-027 | Formula 1 | [formula1.com](https://www.formula1.com) |
-| WEB-028 | NBA | [nba.com](https://www.nba.com) |
-| WEB-029 | IBJJF | [ibjjf.com](https://ibjjf.com) |
-| WEB-030 | IJF | [ijf.org](https://www.ijf.org) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-023 | ESPN | [espn.com](https://www.espn.com) | Estados Unidos |
+| WEB-024 | Olympics | [olympics.com](https://olympics.com) | Suíça |
+| WEB-025 | UFC | [ufc.com](https://www.ufc.com) | Estados Unidos |
+| WEB-026 | FIFA | [fifa.com](https://www.fifa.com) | Suíça |
+| WEB-027 | Formula 1 | [formula1.com](https://www.formula1.com) | Reino Unido |
+| WEB-028 | NBA | [nba.com](https://www.nba.com) | Estados Unidos |
+| WEB-029 | IBJJF | [ibjjf.com](https://ibjjf.com) | Estados Unidos |
+| WEB-030 | IJF | [ijf.org](https://www.ijf.org) | Suíça |
 
 #### Betting
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-031 | Bet365 | [bet365.com](https://www.bet365.com) |
-| WEB-032 | Betano | [betano.com](https://www.betano.com) |
-| WEB-033 | Betfair | [betfair.com](https://www.betfair.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-031 | Bet365 | [bet365.com](https://www.bet365.com) | Reino Unido |
+| WEB-032 | Betano | [betano.com](https://www.betano.com) | Grécia |
+| WEB-033 | Betfair | [betfair.com](https://www.betfair.com) | Reino Unido |
 
 #### Government
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-034 | Governo Federal do Brasil | [gov.br](https://www.gov.br) |
-| WEB-035 | USA.gov | [usa.gov](https://www.usa.gov) |
-| WEB-036 | GOV.UK | [gov.uk](https://www.gov.uk) |
-| WEB-037 | Portal da Transparência | [portaldatransparencia.gov.br](https://portaldatransparencia.gov.br) |
-| WEB-038 | German Federal Government | [bundesregierung.de](https://www.bundesregierung.de) |
-| WEB-039 | Finland Government Services | [suomi.fi](https://www.suomi.fi) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-034 | Governo Federal do Brasil | [gov.br](https://www.gov.br) | Brasil |
+| WEB-035 | USA.gov | [usa.gov](https://www.usa.gov) | Estados Unidos |
+| WEB-036 | GOV.UK | [gov.uk](https://www.gov.uk) | Reino Unido |
+| WEB-037 | Portal da Transparência | [portaldatransparencia.gov.br](https://portaldatransparencia.gov.br) | Brasil |
+| WEB-038 | German Federal Government | [bundesregierung.de](https://www.bundesregierung.de) | Alemanha |
+| WEB-039 | Finland Government Services | [suomi.fi](https://www.suomi.fi) | Finlândia |
 
 #### Intelligence & Investigation
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-040 | FBI | [fbi.gov](https://www.fbi.gov) |
-| WEB-041 | CIA | [cia.gov](https://www.cia.gov) |
-| WEB-043 | INTERPOL | [interpol.int](https://www.interpol.int) |
-| WEB-044 | NSA | [nsa.gov](https://www.nsa.gov) |
-| WEB-045 | CISA | [cisa.gov](https://www.cisa.gov) |
-| WEB-046 | Polícia Federal | [gov.br/pf](https://www.gov.br/pf) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-040 | FBI | [fbi.gov](https://www.fbi.gov) | Estados Unidos |
+| WEB-041 | CIA | [cia.gov](https://www.cia.gov) | Estados Unidos |
+| WEB-042 | FSB | [fsb.ru](https://www.fsb.ru) | Rússia |
+| WEB-043 | INTERPOL | [interpol.int](https://www.interpol.int) | França |
+| WEB-044 | NSA | [nsa.gov](https://www.nsa.gov) | Estados Unidos |
+| WEB-045 | CISA | [cisa.gov](https://www.cisa.gov) | Estados Unidos |
+| WEB-046 | Polícia Federal | [gov.br/pf](https://www.gov.br/pf) | Brasil |
 
 #### Operating Systems
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-047 | Arch Linux | [archlinux.org](https://archlinux.org) |
-| WEB-048 | Debian | [debian.org](https://www.debian.org) |
-| WEB-049 | Windows | [microsoft.com/windows](https://www.microsoft.com/windows) |
-| WEB-050 | FreeBSD | [freebsd.org](https://www.freebsd.org) |
-| WEB-051 | Kali Linux | [kali.org](https://www.kali.org) |
-| WEB-052 | Ubuntu | [ubuntu.com](https://ubuntu.com) |
-| WEB-053 | Fedora | [fedoraproject.org](https://fedoraproject.org) |
-| WEB-054 | Linux Mint | [linuxmint.com](https://linuxmint.com) |
-| WEB-055 | TempleOS | [templeos.org](https://templeos.org) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-047 | Arch Linux | [archlinux.org](https://archlinux.org) | Canadá |
+| WEB-048 | Debian | [debian.org](https://www.debian.org) | Estados Unidos |
+| WEB-049 | Windows | [microsoft.com/windows](https://www.microsoft.com/windows) | Estados Unidos |
+| WEB-050 | FreeBSD | [freebsd.org](https://www.freebsd.org) | Estados Unidos |
+| WEB-051 | Kali Linux | [kali.org](https://www.kali.org) | Estados Unidos |
+| WEB-052 | Ubuntu | [ubuntu.com](https://ubuntu.com) | Reino Unido |
+| WEB-053 | Fedora | [fedoraproject.org](https://fedoraproject.org) | Estados Unidos |
+| WEB-054 | Linux Mint | [linuxmint.com](https://linuxmint.com) | França |
+| WEB-055 | TempleOS | [templeos.org](https://templeos.org) | Estados Unidos |
 
 #### Communities
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-056 | Reddit | [reddit.com](https://www.reddit.com) |
-| WEB-057 | Stack Overflow | [stackoverflow.com](https://stackoverflow.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-056 | Reddit | [reddit.com](https://www.reddit.com) | Estados Unidos |
+| WEB-057 | Stack Overflow | [stackoverflow.com](https://stackoverflow.com) | Estados Unidos |
 
 #### Development & Technology
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-058 | GitHub | [github.com](https://github.com) |
-| WEB-059 | Cloudflare | [cloudflare.com](https://www.cloudflare.com) |
-| WEB-060 | OWASP | [owasp.org](https://owasp.org) |
-| WEB-61 | Mozilla | [mozilla.org](https://www.mozilla.org) |
-| WEB-62 | GNU | [gnu.org](https://www.gnu.org) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-058 | GitHub | [github.com](https://github.com) | Estados Unidos |
+| WEB-059 | Cloudflare | [cloudflare.com](https://www.cloudflare.com) | Estados Unidos |
+| WEB-060 | OWASP | [owasp.org](https://owasp.org) | Estados Unidos |
+| WEB-061 | Mozilla | [mozilla.org](https://www.mozilla.org) | Estados Unidos |
+| WEB-062 | GNU | [gnu.org](https://www.gnu.org) | Estados Unidos |
 
 #### Video Platforms
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-063 | YouTube | [youtube.com](https://www.youtube.com) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-063 | YouTube | [youtube.com](https://www.youtube.com) | Estados Unidos |
 
 #### Knowledge
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-064 | Wikipedia | [wikipedia.org](https://www.wikipedia.org) |
-| WEB-065 | Internet Archive | [archive.org](https://archive.org) |
-| WEB-066 | NASA | [nasa.gov](https://www.nasa.gov) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-064 | Wikipedia | [wikipedia.org](https://www.wikipedia.org) | Estados Unidos |
+| WEB-065 | Internet Archive | [archive.org](https://archive.org) | Estados Unidos |
+| WEB-066 | NASA | [nasa.gov](https://www.nasa.gov) | Estados Unidos |
 
 #### Games
 
-| ID | Serviço | Website |
-|---|---|---|
-| WEB-067 | Poki | [poki.com](https://poki.com) |
-| WEB-068 | 1001 Jogos | [1001jogos.com.br](https://www.1001jogos.com.br) |
-| WEB-069 | Click Jogos | [clickjogos.com.br](https://www.clickjogos.com.br) |
-| WEB-070 | Monou | [monou.gg](https://monou.gg) |
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-067 | Poki | [poki.com](https://poki.com) | Países Baixos |
+| WEB-068 | 1001 Jogos | [1001jogos.com.br](https://www.1001jogos.com.br) | Países Baixos |
+| WEB-069 | Click Jogos | [clickjogos.com.br](https://www.clickjogos.com.br) | Brasil |
+| WEB-070 | Monou | [monou.gg](https://monou.gg) | México |
 
-**Nota:** os identificadores foram preservados conforme os nomes das pastas do repositório. Alguns não seguem exatamente o mesmo padrão de zeros à esquerda. A numeração também contém lacunas, pois os identificadores são utilizados como referências individuais do projeto.
+#### Banks
 
-### 2.3 Dark Web
+| ID | Serviço | Website | País |
+|---|---|---|---|
+| WEB-071 | Bank of America | [bankofamerica.com](https://www.bankofamerica.com) | Estados Unidos |
+| WEB-072 | Nubank | [nubank.com.br](https://nubank.com.br) | Brasil |
+| WEB-073 | Mercado Pago | [mercadopago.com](https://www.mercadopago.com) | Argentina |
+| WEB-074 | ICBC | [icbc.com.cn](https://www.icbc.com.cn) | China |
+| WEB-075 | JPMorgan Chase | [jpmorganchase.com](https://www.jpmorganchase.com) | Estados Unidos |
+| WEB-076 | CAIXA | [caixa.gov.br](https://www.caixa.gov.br) | Brasil |
+| WEB-077 | BNP Paribas | [group.bnpparibas](https://group.bnpparibas) | França |
+| WEB-078 | Itaú | [itau.com.br](https://www.itau.com.br) | Brasil |
+| WEB-079 | Standard Bank | [standardbank.com](https://www.standardbank.com) | África do Sul |
+| WEB-080 | Commonwealth Bank | [commbank.com.au](https://www.commbank.com.au) | Austrália |
+| WEB-081 | Agricultural Bank of China (ABC) | [abchina.com](https://www.abchina.com) | China |
+
+**Nota sobre a classificação geográfica:** os países apresentados representam a origem ou associação institucional atribuída a cada organização ou serviço para fins de organização da pesquisa. Eles não representam necessariamente a localização dos servidores, data centres, utilizadores ou operações globais. Organizações internacionais, projetos comunitários e empresas multinacionais podem exigir uma análise mais específica. A classificação geográfica deve ser interpretada como uma referência documental, não como uma afirmação sobre a infraestrutura técnica de cada serviço.
+
+### 2.3 Documentação geográfica da Surface Web
+
+A partir da versão 1.2, a pesquisa da Surface Web passa a incluir uma dimensão geográfica.
+
+Essa documentação procura identificar a origem institucional dos serviços e organizar os registros por país.
+
+Os objetivos são:
+
+- Identificar a distribuição geográfica dos serviços documentados.
+- Relacionar serviços e organizações aos seus países de origem.
+- Facilitar a visualização geográfica no mapa da Surface Web.
+- Comparar a presença de organizações de diferentes países.
+- Ampliar o contexto institucional da pesquisa.
+
+A classificação geográfica não deve ser confundida com geolocalização de servidores ou rastreamento de infraestrutura.
+
+### 2.4 Dark Web
 
 A pesquisa da Dark Web utiliza categorias próprias para organizar os serviços identificados.
 
@@ -343,7 +379,7 @@ A utilização de Tor ou VPN não representa anonimato absoluto nem garante segu
 
 O mapeamento é uma das partes centrais do WebAtlas.
 
-O projeto utiliza mapas físicos e digitais para representar os serviços identificados e as relações documentadas entre eles.
+O projeto utiliza mapas físicos e digitais para representar os serviços identificados, suas categorias, os países associados e as relações documentadas entre eles.
 
 O desenvolvimento acontece em diferentes etapas:
 
@@ -365,6 +401,14 @@ Os mapas e suas versões podem ser consultados diretamente no repositório:
 - [Mapas digitais](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Digital-Map)
 - [Mapas físicos](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Physical-Map)
 
+### 7.2 Mapeamento geográfico
+
+A partir da versão 1.2, o mapa da Surface Web também considera a classificação geográfica dos serviços.
+
+Essa dimensão permite visualizar a distribuição dos registros por país e relacionar as organizações documentadas às suas origens institucionais.
+
+O mapa geográfico não representa a localização física dos servidores nem a distribuição dos utilizadores. Seu objetivo é complementar a organização documental da Surface Web.
+
 ## 8. Sistema de atualizações
 
 O WebAtlas possui uma pasta `Updates/`, criada para organizar o histórico de desenvolvimento e preservar as versões anteriores dos materiais.
@@ -377,6 +421,7 @@ Cada atualização possui sua própria pasta numerada. Dentro dela, os documento
 |---|---|
 | [1.0](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0) | Primeira versão arquivada dos mapas e relatórios do projeto |
 | [1.1](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1) | Atualização dos mapas e relatórios, incluindo reavaliações da Dark Web |
+| [1.2](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.2) | Expansão da Surface Web, classificação geográfica dos serviços, novo mapa e documentação geográfica |
 
 ### 8.2 Estrutura da pasta Updates
 
@@ -393,16 +438,24 @@ Updates/
 │       ├── Dark Web Report/
 │       └── Surface Web Report/
 │
-└── 1.1/
-    ├── Dark Web Reviews/
-    │
+├── 1.1/
+│   ├── Dark Web Reviews/
+│   │
+│   ├── Maps/
+│   │   ├── Complete Map/
+│   │   └── Surface Web Map/
+│   │
+│   └── Reports/
+│       ├── Dark Web Report/
+│       └── Surface Web Report/
+│
+└── 1.2/
     ├── Maps/
-    │   ├── Complete Map/
     │   └── Surface Web Map/
     │
     └── Reports/
-        ├── Dark Web Report/
-        └── Surface Web Report/
+        └── Surface Web/
+            └── Geographical Distribution/
 ```
 
 ### 8.3 Conteúdo das atualizações
@@ -415,6 +468,7 @@ Cada versão pode conter diferentes materiais, de acordo com as mudanças realiz
 - Revisões e reavaliações dos níveis de risco.
 - Registros de novos serviços documentados.
 - Correções e complementações da pesquisa.
+- Documentação geográfica e classificações por país.
 
 Os documentos podem ser disponibilizados em português e inglês britânico.
 
@@ -451,7 +505,30 @@ A pasta `Dark Web Reviews` contém os relatórios de reavaliação em português
 - [Reviews - Português](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-PT.pdf)
 - [Reviews - English](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-ENG.pdf)
 
-### 8.6 Objetivo do sistema de versões
+### 8.6 Atualização 1.2
+
+A versão 1.2 concentra-se na expansão e no aprofundamento da pesquisa da Surface Web.
+
+Os principais objetivos desta atualização são:
+
+**1. Novo mapa**
+- Desenvolvimento de uma nova representação visual da Surface Web.
+- Organização dos serviços e categorias.
+- Inclusão da dimensão geográfica na visualização.
+
+**2. Classificação geográfica**
+- Identificação dos países associados aos 81 serviços documentados.
+- Organização dos registros por país.
+- Ampliação do contexto institucional dos serviços.
+
+**3. Documentação da Surface Web**
+- Criação de documentação específica sobre a distribuição geográfica.
+- Organização das informações em relatórios.
+- Disponibilização dos materiais em português e inglês britânico.
+
+A versão 1.2 amplia a dimensão documental do WebAtlas, adicionando uma perspectiva geográfica à pesquisa que anteriormente se concentrava principalmente na identificação, categorização e análise dos serviços.
+
+### 8.7 Objetivo do sistema de versões
 
 O sistema de atualizações permite:
 
@@ -474,6 +551,7 @@ WebAtlas/
 ├── Dark Web/
 │
 ├── Surface Web/
+│   ├── Banks/
 │   ├── Betting/
 │   ├── Communities/
 │   ├── Development-Technology/
@@ -498,7 +576,8 @@ WebAtlas/
 │
 ├── Updates/
 │   ├── 1.0/
-│   └── 1.1/
+│   ├── 1.1/
+│   └── 1.2/
 │
 └── README.md
 ```
@@ -515,13 +594,15 @@ O processo exige atenção à qualidade das evidências, à organização dos ar
 
 | Informação | Registro |
 |---|---|
-| Registros da Surface Web | 70 |
-| Categorias da Surface Web | 13 |
+| Registros da Surface Web | 81 |
+| Categorias da Surface Web | 14 |
 | Ambientes pesquisados | Surface Web e Dark Web |
-| Versões arquivadas | 1.0 e 1.1 |
+| Versões arquivadas | 1.0, 1.1 e 1.2 |
 | Idiomas | PT-BR e English UK |
+| Nova categoria | Banks |
+| Classificação geográfica | Incluída na versão 1.2 |
 
-Os números representam a estrutura identificada no repositório nesta atualização e podem mudar conforme o projeto evoluir.
+Os números representam a estrutura documentada nesta versão e podem mudar conforme o projeto evoluir.
 
 ## 11. Atualizações futuras
 
@@ -538,6 +619,7 @@ Possíveis etapas futuras incluem:
 - Aperfeiçoamento do sistema de classificação.
 - Desenvolvimento do mapa digital integrado.
 - Melhoria da organização e visualização das evidências.
+- Aperfeiçoamento da documentação geográfica.
 - Criação de ferramentas auxiliares para automatizar tarefas documentais.
 
 ## 12. Ética e responsabilidade
@@ -563,6 +645,8 @@ A presença de um serviço no WebAtlas não representa aprovação, recomendaç�
 
 As classificações são avaliações documentais baseadas nas evidências disponíveis durante a pesquisa e podem mudar conforme novas informações forem encontradas.
 
+As informações geográficas representam uma classificação institucional ou de origem atribuída aos serviços, não uma localização confirmada de servidores ou infraestrutura.
+
 O autor não incentiva nem assume responsabilidade por usos ilegais ou inadequados das informações disponibilizadas.
 
 ---
@@ -579,11 +663,12 @@ The project aims to document:
 - Their structures and characteristics.
 - Their respective categories.
 - Potential security and exposure risks.
+- The countries associated with their institutional origins.
 - Identifiable relationships between different services.
 - Differences between Surface Web and Dark Web environments.
 - Changes identified during reviews and project updates.
 
-WebAtlas combines manual research, technical documentation, screenshots, reports, risk assessments and visual mapping.
+WebAtlas combines manual research, technical documentation, screenshots, reports, risk assessments, geographical classification and visual mapping.
 
 Its purpose is educational and documentary. It does not aim to facilitate access to illegal activities or dangerous services.
 
@@ -598,7 +683,7 @@ Each documented service receives an individual identifier (`WEB-XXX` or `DARK-XX
 
 ### 2.1 Surface Web
 
-The Surface Web research is organised into the following categories:
+The Surface Web research is organised into 14 categories:
 
 | Category | Description |
 |---|---|
@@ -612,26 +697,36 @@ The Surface Web research is organised into the following categories:
 | Operating Systems | Operating systems and related projects |
 | Communities | Online communities and forums |
 | Development & Technology | Development, technology and security |
-| Knowledge | Knowledge, education and digital libraries |
 | Video Platforms | Video-sharing platforms |
+| Knowledge | Knowledge, education and digital libraries |
 | Games | Online gaming platforms and services |
+| Banks | Banking institutions and financial services |
 
 ### 2.2 Surface Web Catalogue
 
-The complete catalogue, including identifiers and website addresses, is provided in the Portuguese section above.
+The Surface Web catalogue contains 81 records distributed across 14 categories.
 
-The current Games category contains four entries:
+Each service has an individual identifier, a reference website and a geographical classification.
 
-| ID | Service | Website |
-|---|---|---|
-| WEB-067 | Poki | [poki.com](https://poki.com) |
-| WEB-068 | 1001 Jogos | [1001jogos.com.br](https://www.1001jogos.com.br) |
-| WEB-069 | Click Jogos | [clickjogos.com.br](https://www.clickjogos.com.br) |
-| WEB-070 | Monou | [monou.gg](https://monou.gg) |
+The complete catalogue, including website addresses and country classifications, is available in the Portuguese section above.
 
-The identifiers are preserved according to the current repository folder names.
+### 2.3 Geographical Documentation
 
-### 2.3 Dark Web
+From version 1.2 onwards, Surface Web research includes a geographical dimension.
+
+This documentation aims to identify the institutional origins of the services and organise records by country.
+
+Its objectives include:
+
+- Identifying the geographical distribution of documented services.
+- Associating services and organisations with their countries of origin.
+- Supporting geographical visualisation in the Surface Web map.
+- Comparing organisations from different countries.
+- Providing additional institutional context for the research.
+
+The geographical classification must not be confused with server geolocation or infrastructure tracking.
+
+### 2.4 Dark Web
 
 The Dark Web research uses dedicated categories to organise identified services.
 
@@ -659,7 +754,7 @@ WebAtlas uses a colour-based classification system to represent the general risk
 
 The classification considers each service's purpose and the general risks associated with its use.
 
-**Important:** this classification does not guarantee that a service is safe.
+**Important:** this classification does not guarantee that a service is safe. Even services classified as low risk may contain vulnerabilities, scams, fake pages or malicious content.
 
 ### 3.1 Risk and Assessment Confidence
 
@@ -693,7 +788,7 @@ A classification change does not necessarily mean that the service itself has ch
 
 An unavailable service is not automatically considered dangerous.
 
-Documentation may include screenshots, verification timestamps, address origins, error messages and research limitations.
+Documentation may include screenshots, verification timestamps, address origins, error messages, research limitations and the reasons for an unknown classification.
 
 ## 4. Documentation Methods
 
@@ -763,7 +858,7 @@ The use of Tor or VPN services does not guarantee complete anonymity or security
 
 Mapping is one of the central elements of WebAtlas.
 
-The project uses physical and digital maps to represent identified services and documented relationships.
+The project uses physical and digital maps to represent identified services, their categories, associated countries and documented relationships.
 
 The mapping process includes:
 
@@ -778,10 +873,20 @@ The mapping process includes:
 
 Relationships between services are only represented when supported by evidence. A simple mention or reference does not prove ownership or a technical connection.
 
-Project maps are available in the repository:
+### 7.1 Project Maps
+
+Project maps and their versions are available in the repository:
 
 - [Digital Maps](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Digital-Map)
 - [Physical Maps](https://github.com/Udinocraft/WebAtlas/tree/main/Map/Physical-Map)
+
+### 7.2 Geographical Mapping
+
+From version 1.2 onwards, the Surface Web map also considers the geographical classification of services.
+
+This dimension allows the geographical distribution of records to be visualised by country and connects documented organisations to their institutional origins.
+
+The geographical map does not represent the physical location of servers or the distribution of users. Its purpose is to complement the documentary organisation of the Surface Web.
 
 ## 8. Versioned Update System
 
@@ -795,6 +900,7 @@ Each update has its own numbered directory. Documents are organised by content t
 |---|---|
 | [1.0](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.0) | First archived version of the project's maps and reports |
 | [1.1](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.1) | Updated maps and reports, including Dark Web reassessments |
+| [1.2](https://github.com/Udinocraft/WebAtlas/tree/main/Updates/1.2) | Surface Web expansion, geographical classification, a new map and geographical documentation |
 
 ### 8.2 Update Contents
 
@@ -806,6 +912,7 @@ Each version may include:
 - Risk-level reviews and reassessments.
 - Records of newly documented services.
 - Research corrections and additional information.
+- Geographical documentation and country classifications.
 
 Documents may be available in Brazilian Portuguese and British English.
 
@@ -842,7 +949,30 @@ The `Dark Web Reviews` directory contains reassessment reports in Portuguese and
 - [Reviews - Portuguese](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-PT.pdf)
 - [Reviews - English](https://github.com/Udinocraft/WebAtlas/blob/main/Updates/1.1/Dark%20Web%20Reviews/Reviews-ENG.pdf)
 
-### 8.5 Purpose of Version Control
+### 8.5 Version 1.2
+
+Version 1.2 focuses on expanding and improving Surface Web research.
+
+Its main objectives are:
+
+**1. New map**
+- Development of a new visual representation of the Surface Web.
+- Organisation of services and categories.
+- Inclusion of geographical information in the visualisation.
+
+**2. Geographical classification**
+- Identification of the countries associated with the 81 documented services.
+- Organisation of records by country.
+- Expansion of the institutional context of the services.
+
+**3. Surface Web documentation**
+- Creation of dedicated documentation about geographical distribution.
+- Organisation of information into reports.
+- Availability of materials in Brazilian Portuguese and British English.
+
+Version 1.2 expands the documentary scope of WebAtlas by adding a geographical perspective to research that previously focused mainly on identifying, categorising and analysing services.
+
+### 8.6 Purpose of Version Control
 
 The update system allows WebAtlas to:
 
@@ -865,6 +995,7 @@ WebAtlas/
 ├── Dark Web/
 │
 ├── Surface Web/
+│   ├── Banks/
 │   ├── Betting/
 │   ├── Communities/
 │   ├── Development-Technology/
@@ -889,7 +1020,8 @@ WebAtlas/
 │
 ├── Updates/
 │   ├── 1.0/
-│   └── 1.1/
+│   ├── 1.1/
+│   └── 1.2/
 │
 └── README.md
 ```
@@ -906,13 +1038,15 @@ The process requires attention to evidence quality, file organisation and resear
 
 | Information | Record |
 |---|---|
-| Surface Web records | 70 |
-| Surface Web categories | 13 |
+| Surface Web records | 81 |
+| Surface Web categories | 14 |
 | Research environments | Surface Web and Dark Web |
-| Archived versions | 1.0 and 1.1 |
+| Archived versions | 1.0, 1.1 and 1.2 |
 | Languages | PT-BR and English UK |
+| New category | Banks |
+| Geographical classification | Introduced in version 1.2 |
 
-These figures reflect the repository structure at the time of this update and may change as the project develops.
+These figures reflect the documented repository structure in this version and may change as the project develops.
 
 ## 11. Future Updates
 
@@ -929,6 +1063,7 @@ Potential future developments include:
 - Improving the classification system.
 - Developing an integrated digital map.
 - Improving evidence organisation and visualisation.
+- Improving geographical documentation.
 - Creating supporting tools to automate documentation tasks.
 
 ## 12. Ethics and Responsibility
@@ -954,6 +1089,8 @@ The presence of a service in the project does not represent endorsement, recomme
 
 Classifications are documentary assessments based on the evidence available during research and may change as new information becomes available.
 
+Geographical information represents an institutional or origin-based classification assigned to services, not a confirmed location of servers or infrastructure.
+
 The author does not encourage or assume responsibility for illegal or inappropriate uses of the information provided.
 
 ---
@@ -962,4 +1099,5 @@ The author does not encourage or assume responsibility for illegal or inappropri
 **Repository:** [github.com/Udinocraft/WebAtlas](https://github.com/Udinocraft/WebAtlas)  
 **Author:** Udinocraft  
 **Languages:** Brazilian Portuguese and British English  
-**Purpose:** Cybersecurity Research, Documentation and Mapping
+**Purpose:** Cybersecurity Research, Documentation and Mapping  
+**Current Version:** 1.2
